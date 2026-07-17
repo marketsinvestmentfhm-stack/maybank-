@@ -1,1 +1,199 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<title>MAYBANK ACCOUNT</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,Helvetica,sans-serif;
+}
+
+body{
+background:#f2f2f2;
+display:flex;
+justify-content:center;
+padding:30px;
+}
+
+.phone{
+width:390px;
+background:#fff;
+border-radius:25px;
+overflow:hidden;
+box-shadow:0 10px 30px rgba(0,0,0,.2);
+}
+
+.header{
+background:linear-gradient(135deg,#FFD400,#FFC107);
+padding:25px;
+color:#111;
+}
+
+.header h2{
+font-size:26px;
+}
+
+.header p{
+margin-top:5px;
+font-size:14px;
+}
+
+.card{
+background:#fff;
+margin:20px;
+padding:20px;
+border-radius:20px;
+box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.label{
+color:#777;
+font-size:14px;
+}
+
+.name{
+font-size:20px;
+font-weight:bold;
+margin-top:8px;
+}
+
+.balance{
+font-size:34px;
+font-weight:bold;
+color:#111;
+margin-top:15px;
+}
+
+.currency{
+font-size:18px;
+color:#666;
+}
+
+.status{
+display:inline-block;
+margin-top:15px;
+background:#e8f5e9;
+color:#2e7d32;
+padding:8px 14px;
+border-radius:20px;
+font-size:13px;
+font-weight:bold;
+}
+
+.menu{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:15px;
+padding:20px;
+}
+
+.item{
+background:#fff9db;
+border-radius:15px;
+padding:15px;
+text-align:center;
+cursor:pointer;
+transition:.3s;
+}
+
+.item:hover{
+background:#ffe082;
+transform:translateY(-3px);
+}
+
+.icon{
+font-size:28px;
+}
+
+.item span{
+display:block;
+margin-top:8px;
+font-size:13px;
+font-weight:bold;
+}
+
+.footer{
+padding:20px;
+text-align:center;
+font-size:12px;
+color:#777;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="phone">
+
+<div class="header">
+<h2>eWallet</h2>
+<p>Dummy Interface</p>
+</div>
+
+<div class="card">
+
+<div class="label">Nama Pemegang Akaun</div>
+
+<div class="name">
+BASARIAH BINTI SALEH
+</div>
+
+<div class="label" style="margin-top:15px;">
+Baki Semasa
+</div>
+
+<div class="balance">
+<span class="currency">MYR</span>
+375,730.00
+</div>
+
+<div class="status">
+✔ Akaun Aktif
+</div>
+
+</div>
+
+<div class="menu">
+
+<div class="item">
+<div class="icon">💰</div>
+<span>Top Up</span>
+</div>
+
+<div class="item">
+<div class="icon">📤</div>
+<span>Transfer</span>
+</div>
+
+<div class="item">
+<div class="icon">🏧</div>
+<span>Withdraw</span>
+</div>
+
+<div class="item">
+<div class="icon">📜</div>
+<span>History</span>
+</div>
+
+</div>
+
+<div class="footer">
+REAL ACCOUNT (TEMPORARY)<br>
+URUSAN YURAN PETBIRAN RM 3000.00.
+</div>
+
+</div>
+
+<script>
+console.log("REAL ACCOUNT Loaded");
+</script>
+
+</body>
+</html>
